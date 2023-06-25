@@ -1,0 +1,33 @@
+﻿body {
+    padding-top: 50px;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+    .nav-item:hover {
+        background-color: yellow;
+    }
+
+.contenedor {
+    padding: 0px 30px;
+}
+
+.marginforcards {
+    padding: 30px 30px;
+}
+.btnfocus:hover::before {
+    content: "Ir al libro";
+}
+.btnfocus::before {
+    content: "Enlace";
+}
